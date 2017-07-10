@@ -25,7 +25,7 @@ function displayAbbreviations() {
         dlist.appendChild(dtitle);
         dlist.appendChild(ddesc);
 	}
-	if (dlist.childNodes.length < 1) return false；    //平稳退化，即兼容IE6或者更早的版本
+	if (dlist.childNodes.length < 1) return false;    //平稳退化，即兼容IE6或者更早的版本
 	var header = document.createElement("h2");
 	var header_text = document.createTextNode("Abbreviations");
 	header.appendChild(header_text);
